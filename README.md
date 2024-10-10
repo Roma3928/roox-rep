@@ -20,3 +20,4 @@ npm run build
 - React
 - RTK
 - SCSS
+- Webpack
