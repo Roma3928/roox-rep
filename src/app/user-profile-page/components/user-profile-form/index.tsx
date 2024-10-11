@@ -136,7 +136,7 @@ const UserProfileForm: FC<IProps> = ({ user, isFormDisabled }) => {
           setValue={setZipCodeValue}
           error={errors.zipCode}
           clearError={() => clearError('zipCode')}
-          type="number"
+          type="text"
           disabled={isFormDisabled}
         />
         <Input
