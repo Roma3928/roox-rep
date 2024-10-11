@@ -1,0 +1,21 @@
+@import '../../../../assets/scss/vars';
+
+.user-profile-form {
+  .user-profile-inputs {
+    padding: 19px 12px;
+    border: 1px solid $color-light-gray;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &-button {
+    text-align: right;
+
+    button {
+      background-color: $color-light-green;
+    }
+  }
+}

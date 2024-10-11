@@ -1,0 +1,20 @@
+@import '../../../assets/scss/vars';
+
+.button {
+  padding: 5px 15.2px;
+  border-radius: 5px;
+  background-color: $color-neon-blue;
+  color: $color-white;
+  font-size: $font-size-md;
+  line-height: 14.06px;
+
+  transition: opacity 0.3s ease;
+
+  &.disabled {
+    background-color: $color-medium-gray;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

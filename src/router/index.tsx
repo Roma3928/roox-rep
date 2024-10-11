@@ -1,15 +1,19 @@
+import HomePage from '../app/home-page';
+import UserProfilePage from '../app/user-profile-page';
+import DashboardLayout from '../components/dashboard-layout';
+
 export const routes = [
   {
     path: '/',
-    element: <div />,
+    element: <DashboardLayout />,
     children: [
       {
         index: true,
-        element: <div />,
+        element: <HomePage />,
       },
       {
         path: 'user-info/:id',
-        element: <div />,
+        element: <UserProfilePage />,
       },
       {
         path: '*',

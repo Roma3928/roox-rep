@@ -4,27 +4,27 @@ interface IGeo {
 }
 
 interface IAddress {
-  street?: string;
-  suite?: string;
-  city?: string;
-  zipcode?: string;
-  geo?: IGeo;
+  street: string;
+  suite: string;
+  city: string;
+  zipcode: string;
+  geo: IGeo;
 }
 
 interface ICompany {
-  name?: string;
-  catchPhrase?: string;
-  bs?: string;
+  name: string;
+  catchPhrase: string;
+  bs: string;
 }
 
 export interface IUsersResponse {
-  id?: number;
+  id: number;
   name: string;
   username: string;
   email: string;
   address: IAddress;
   phone: string;
-  website?: string;
+  website: string;
   company: ICompany;
 }
 

@@ -1,0 +1,36 @@
+@import '../../../assets/scss/vars';
+
+.input-container {
+  .label {
+    display: inline-block;
+    font-size: 8px;
+    line-height: 9.38px;
+    margin-bottom: 3.35px;
+  }
+
+  .input {
+    outline: none;
+    border-radius: 5px;
+    padding: 5.15px 10px;
+    border: 1px solid#D8D8D8;
+    background-color: $color-white;
+    color: $color-black;
+    font-size: 10px;
+    line-height: 11.72px;
+    width: 100%;
+
+    &.disabled {
+      color: #0000004d;
+    }
+  }
+
+  .input-error {
+    border: 1px solid $color-red;
+  }
+
+  .error {
+    color: $color-red;
+    font-size: 8px;
+    line-height: 9.38px;
+  }
+}

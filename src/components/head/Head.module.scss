@@ -1,0 +1,13 @@
+@import '../../assets/scss/vars';
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+
+  &-title {
+    font-size: $font-size-lg;
+    line-height: 16.41px;
+  }
+}
